@@ -9,7 +9,7 @@
 #SBATCH -o dscr_template_%j.out # File for STDOUT (with jobid = %j) 
 #SBATCH -e dscr_template_%j.err       # File for STDERR (with jobid = %j) 
 #SBATCH --mail-type=ALL          # Type of email notification: BEGIN,END,FAIL,ALL
-#SBATCH --mail-user=EMAIL@duke.edu  # Email where notifications will be sent
+#SBATCH --mail-user=blanka@duke.edu  # Email where notifications will be sent
 #Your actual work goes after this line
 
 srun echo "Use this SLURM template as a starting point for running"
